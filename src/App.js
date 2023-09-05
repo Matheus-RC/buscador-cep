@@ -40,7 +40,7 @@ function App() {
       <main className="main">
         <h2>CEP: {cep.cep}</h2>
         <span>Rua: {cep.logradouro}</span>
-        {cep.complemento != "" ?(
+        {cep.complemento !== "" ?(
         <span>Complemento: {cep.complemento}</span>
         ): null}
         <span>{cep.bairro}</span>
